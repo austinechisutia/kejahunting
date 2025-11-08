@@ -1,4 +1,5 @@
 import { Search } from "lucide-react";
+import footerImg from "../assets/images/footer/footer.jpg";
 
 export default function Footer() {
   return (
@@ -7,10 +8,10 @@ export default function Footer() {
       <div
         className="relative h-84 bg-cover bg-center flex flex-col items-center justify-center text-white"
         style={{
-          backgroundImage: "url('./assets/images/footer/footer.jpg')",
+            backgroundImage: `url(${footerImg})`,
         }}
       >
-        <div className="bg-black/50 absolute inset-0" /> {/* Overlay for readability */}
+        <div className="bg-black/60 absolute inset-0" /> {/* Overlay for readability */}
         <div className="relative z-10 w-full flex flex-col justify-center items-center px-4">
             <p className="mb-10 text-4xl font-bold">Find The Right <span className="font-galada text-cyan-600">Keja</span> Around Your Campus</p>
          <div className="flex w-fit">

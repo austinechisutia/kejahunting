@@ -4,6 +4,8 @@ import Buttons from "./components/buttons.jsx";
 import Hero from "./components/hero.jsx";
 import Hostel from "./components/hostels.jsx";
 import Footer from "./components/footer.jsx";
+import HowItWorks from "./components/howItWorks.jsx";
+import About from "./components/about.jsx"; 
 
 function App() {
   return (
@@ -11,7 +13,9 @@ function App() {
       <Navbar />
       <Buttons/>
       <Hero />
+      <About />
       <Hostel />
+      <HowItWorks />
       <Footer />
 
       
