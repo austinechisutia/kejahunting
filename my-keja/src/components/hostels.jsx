@@ -83,7 +83,7 @@ export default function Houses() {
 
   return (
     <section className="px-8 py-16 bg-gray-100">
-      <h2 className="text-3xl font-bold mb-8 text-center font-poppins">
+      <h2 className="text-3xl font-poppins font-bold mb-8 text-start font-poppins">
         Available Houses
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">

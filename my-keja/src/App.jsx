@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar.jsx";
 import Buttons from "./components/buttons.jsx";
 import Hero from "./components/hero.jsx";
 import Hostel from "./components/hostels.jsx";
+import Footer from "./components/footer.jsx";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Buttons/>
       <Hero />
       <Hostel />
+      <Footer />
 
       
       {/* Other components can be added here */}
