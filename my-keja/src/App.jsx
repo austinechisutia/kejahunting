@@ -6,11 +6,13 @@ import Hostel from "./components/hostels.jsx";
 import Footer from "./components/footer.jsx";
 import HowItWorks from "./components/howItWorks.jsx";
 import About from "./components/about.jsx"; 
+import Login from "./components/login.jsx";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
+      
       <Buttons/>
       <Hero />
       <About />
